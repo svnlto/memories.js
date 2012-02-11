@@ -13,7 +13,7 @@ A simple in-memory cache module for node.js
 
 ### Installing memories
 ```js
-  [sudo] npm install memories
+  [sudo] npm install memories.js
 ```
 
 ## Usage
