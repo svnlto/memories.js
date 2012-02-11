@@ -27,18 +27,18 @@ vows.describe('memories').addBatch({
 
   'setting a simple cache item': {
 
-    topic: cache.put('mem', 'ory'),
+    topic: cache.put('cat', 'schroedingers'),
 
     'cache should have a length of 1': function(topic) {
       assert.equal(cache.size(), 1)
     },
 
     'should return cached data': function(topic) {
-      assert.equal(cache.get('mem'), 'ory')
+      assert.equal(cache.get('cat'), 'schroedingers')
     },
 
     'and should be deleting 1': function(topic) {
-      assert.equal(cache.del('mem'), null)
+      assert.equal(cache.del('cat'), null)
     }
   }
 }).export(module);
