@@ -1,0 +1,20 @@
+{
+  "name": "memories",
+  "description": "A simple in-memory caching module for Node.js",
+  "version": "0.0.1",
+  "author": "Sven Lito <me@svenlito.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/svnlto/memories.git" 
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "main": "./lib/memories.js",
+  "scripts": {
+    "test": "vows --spec --isolate"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}
