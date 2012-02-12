@@ -23,7 +23,7 @@ A simple in-memory cache module for node.js
   // add new item to the cache
 
   cache.put('cat', 'schroedingers');
-  cache.get('cat'); // schroedinger
+  cache.get('cat'); // schroedingers
 
   // check cache length
   
@@ -36,7 +36,7 @@ A simple in-memory cache module for node.js
 ```
 ## API
 
-##### set()
+##### put()
 ```jsdoc
   cache.set: function(key, value, time)
     @param key {String} an Id.

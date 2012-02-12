@@ -18,6 +18,7 @@ vows.describe('memories').addBatch({
       assert.isFunction(topic.del);
       assert.isFunction(topic.size);
     },
+
     'put() can only be invoked with params': function(topic) {
       assert.equal(topic.put(), 'missing arguments');
     }
