@@ -38,7 +38,7 @@ A simple in-memory cache module for node.js
 
 ##### put()
 ```jsdoc
-  cache.set: function(key, value, time)
+  cache.put: function(key, value, time)
     @param key {String} an Id.
     @param value {String} || {Object} a String or JSON object.
     @param time {integer} [optional] time after the Item will be removed from cache.
