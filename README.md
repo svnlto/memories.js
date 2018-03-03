@@ -1,5 +1,7 @@
 # memories.js 
 
+[![GuardRails badge](https://badges.guardrails.io/svnlto/memories.js.svg)](https://guardrails.io/)
+
 [![Build Status](https://secure.travis-ci.org/svnlto/memories.js.png)](http://travis-ci.org/svnlto/memories.js)
 
 A simple in-memory cache module for node.js
